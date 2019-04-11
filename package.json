@@ -1,0 +1,52 @@
+{
+  "name": "boilerplate",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "ios": "node node_modules/react-native/local-cli/cli.js run-ios --simulator \"iPhone X\"",
+    "android": "node node_modules/react-native/local-cli/cli.js run-android",
+    "lint": "eslint *.js **/*.js"
+  },
+  "dependencies": {
+    "apollo-cache-inmemory": "^1.5.1",
+    "apollo-client": "^2.5.1",
+    "apollo-link": "^1.2.9",
+    "apollo-link-error": "^1.1.8",
+    "apollo-link-http": "^1.5.12",
+    "apollo-link-state": "^0.4.2",
+    "axios": "^0.18.0",
+    "graphql": "^14.1.1",
+    "graphql-tag": "^2.10.1",
+    "prop-types": "^15.7.2",
+    "react": "16.6.3",
+    "react-native": "^0.58.6",
+    "react-native-gesture-handler": "^1.0.15",
+    "react-navigation": "^3.2.3",
+    "react-redux": "^6.0.0",
+    "redux": "^4.0.1",
+    "redux-saga": "^1.0.1",
+    "url": "^0.11.0"
+  },
+  "devDependencies": {
+    "babel-core": "7.0.0-bridge.0",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "24.1.0",
+    "babel-plugin-module-resolver": "^3.2.0",
+    "eslint": "^5.14.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.12.4",
+    "jest": "24.1.0",
+    "metro-react-native-babel-preset": "0.51.1",
+    "prettier": "1.16.4",
+    "react-test-renderer": "16.6.3",
+    "redux-logger": "^3.0.6"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
